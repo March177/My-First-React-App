@@ -1,15 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import React from "react";
+import Students from "./Students";
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
     <div className="App">
-      <h1>March Anthony dela Pena</h1>
-      <h1>March Anton dela Pena</h1>
+      <Students />
     </div>
   );
-}
+};
 
 export default App;
